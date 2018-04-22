@@ -48,6 +48,6 @@ public class demoConfig extends JFinalConfig {
     }
 
     public static void main(String[] args) {
-        JFinal.start("src/main/webapp", 8082, "/", 5);
+        JFinal.start("src/main/webapp", 8081, "/", 5);
     }
 }
