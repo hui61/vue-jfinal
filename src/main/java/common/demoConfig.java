@@ -13,41 +13,41 @@ import controller.demoController;
 
 public class demoConfig extends JFinalConfig {
 
-    @Override
-    public void configConstant(Constants arg0) {
-        arg0.setDevMode(true);
-    }
+  @Override
+  public void configConstant(Constants arg0) {
+    arg0.setDevMode(true);
+  }
 
-    @Override
-    public void configEngine(Engine arg0) {
-        // TODO Auto-generated method stub
+  @Override
+  public void configEngine(Engine arg0) {
+    // TODO Auto-generated method stub
 
-    }
+  }
 
-    @Override
-    public void configHandler(Handlers arg0) {
-        // TODO Auto-generated method stub
+  @Override
+  public void configHandler(Handlers arg0) {
+    // TODO Auto-generated method stub
 
-    }
+  }
 
-    @Override
-    public void configInterceptor(Interceptors arg0) {
-        // TODO Auto-generated method stub
+  @Override
+  public void configInterceptor(Interceptors arg0) {
+    // TODO Auto-generated method stub
 
-    }
+  }
 
-    @Override
-    public void configPlugin(Plugins arg0) {
-        // TODO Auto-generated method stub
+  @Override
+  public void configPlugin(Plugins arg0) {
+    // TODO Auto-generated method stub
 
-    }
+  }
 
-    @Override
-    public void configRoute(Routes arg0) {
-        arg0.add("/demo", demoController.class);
-    }
+  @Override
+  public void configRoute(Routes arg0) {
+    arg0.add("/demo", demoController.class);
+  }
 
-    public static void main(String[] args) {
-        JFinal.start("src/main/webapp", 8081, "/", 5);
-    }
+  public static void main(String[] args) {
+    JFinal.start("src/main/webapp", 8082, "/");
+  }
 }

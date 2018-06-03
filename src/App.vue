@@ -17,7 +17,7 @@ export default {
   },
   methods:{
     getdata(){
-      this.$http.get('http://localhost:8081/demo').then(function(response){
+      this.$http.get('http://localhost:8082/demo').then(function(response){
         this.serverData=response.data
       })
     }
