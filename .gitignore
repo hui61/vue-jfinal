@@ -1,17 +1,20 @@
-.DS_Store
-node_modules/
-/dist/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-/test/unit/coverage/
-/test/e2e/reports/
-selenium-debug.log
+#配置需要忽略的文件
 
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
+#忽略eclipse项目的配置文件
+#忽略.settings文件夹下所有
+.settings/
+#忽略.classpath配置文件
+.classpath
+#忽略.project配置文件
+
+#忽略idea项目的配置文件
+#忽略.idea文件夹下所有
+.idea/
+#忽略.iml配置文件
+*.iml
+
+#忽略.class文件
+*.class
+
+#忽略classes文件夹下所有
+classes/
